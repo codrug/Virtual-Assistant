@@ -1,0 +1,17 @@
+directories:
+  output: release
+  buildResources: build
+appId: com.example.nova
+productName: Nova
+files:
+  - filter:
+      - dist/**/*
+      - main.js
+      - preload.js
+win:
+  target: nsis
+mac:
+  target: dmg
+linux:
+  target: AppImage
+electronVersion: 33.2.1
