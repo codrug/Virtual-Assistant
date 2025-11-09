@@ -1,5 +1,4 @@
-//let apiKey="AIzaSyAnGBJmhox6qKBEN3BqQVTI7avOZgUtGA0"
-let apiKey = "AIzaSyDimhWdT7TE_o_KUVudI0y2b5QXfYLqrsM"
+let apiKey = "GEMINI_API_KEY"
 import {
     GoogleGenerativeAI,
     HarmCategory,
